@@ -1,0 +1,137 @@
+
+  
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale = 1.0,maximum-scale = 1.0”">
+
+<title>CossiePlay - Contact Form</title>
+
+<link href="../css/styles.css" rel="stylesheet" type="text/css">
+<link href="../css/mobile.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../email/validate.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+</head>
+
+<body>
+
+
+<div id="wrapper">
+    <div id="header">
+    
+      <div id="leftheader"><img src="../images/logo.png" class="img1" alt="logo">
+      </div>
+      <div id="rightheader">
+            <h1>4 Stanton Avenue, Hulkstwon<br>
+			Ph: 07 4771 1234<br>
+			Fax: 074771 1235<br>
+            Email: cossieplay@gmail.com<br>
+ 
+            </h1>
+      </div>
+    </div>
+    
+      <div id="navbar">
+       
+       <nav>
+        <a href="../index.html" class="class1">Home</a> | 
+		 <a href="../pages/pricelist.html" class="class1">Pricelist</a> | 
+		 <a href="../pages/party.html" class="class1">Party</a> |
+         <a href="../pages/contact.html" class="class1">Contact</a>  
+            </nav>
+           
+      </div>
+      <div id="content">
+      
+        <div id="leftbar">
+            <h2>CossiePlay Contact Form</h2>
+            
+ 
+ 
+  <form action="../email/email_thankyou.php" target="_blank" method="post" name="contactForm" onsubmit="return validateForm(this);">
+  <ul class="form-style-1">
+  <li>
+  <label for="fullname">Full Name:</label>
+  <input type="text" name="fullname" id="fullname" value="" />
+  
+  </li>
+
+ 
+
+    <li> 
+  <label for="email">Email:</label>
+  <input type="text" name="email" id="email" value="" />
+  
+  </li>
+
+
+  
+    <li>
+  <label for="topic">Topic:</label>
+  <select id="topic" name="topic">
+    <option value="General">General</option>
+    <option value="Register for Party">Register for Party</option>
+    <option value="Clothes">Clothes</option>   
+      <option value="Other">Other</option>  
+        </select>
+    </li>
+   
+ 
+        <li> 
+
+      <label>Message:</label>
+      
+
+
+      <textarea id="message2" name="message" rows="15" cols="70"  > </textarea>
+      
+     
+       </li>
+<li>
+    <input type="checkbox" name="mail" value="Join" />
+      <label>Join Mailing List</label>
+
+     </li>
+
+        <li><input type="submit" value="Submit">  </li>
+  
+  
+ </ul>
+ 
+ </form>
+
+ </div>
+      <div id="sidebar">
+   <br>
+
+      <a  href="http://www.lightinthebox.com/c/cosplay-and-costumes_2284" target="_blank" ><img class="img2" src="../images/rab.jpg" alt="Costumesite" height="130" width="180" > </a>
+      <br>
+       
+     <br>
+  <img class="img2" src="../images/spider.jpg" alt="Spiderman" height="130" width="180" >
+       <br>
+  <img class="img2" src="../images/fair.jpg" alt="FAQ" height="130" width="180" >
+  <br>
+   <img class="img2" src="../images/alice.jpg" alt="FAQ" height="130" width="180" >
+       
+    </div> 
+       
+
+	</div>	
+        	
+		
+		<div id="footer"> <table class="footerlinks">
+    <tr>
+    	  
+	 <td><a class="class2" href="pages/privacy.html" >© 2016 CossiePlay - Copyright and Privacy Information</a></td> 
+  
+		
+    </tr></table> </div>
+ </div>
+ 
+</body>
+</html>
